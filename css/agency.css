@@ -240,7 +240,7 @@ header.masthead {
     margin: 1rem;
     max-width: 100vw; }
   .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 10px 0;
     text-align: center; }
     .portfolio-modal .modal-content h2 {
       font-size: 3em;
@@ -508,4 +508,4 @@ ul.social-buttons {
     outline: none;
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #fed136; }      
