@@ -2,15 +2,21 @@ body{
   color: #ffffff;
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
   width: fit-content;
 }
-
+.bg-dark {
+  background-color: #073642 !important;
+  width: -webkit-fill-available;}
 .jumbotron{
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
+  width: -webkit-fill-available;
 }
 
 
@@ -193,6 +199,12 @@ header.masthead {
       line-height: 75px;
       margin-bottom: 50px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+
+  @media (min-width: 992px) {
+    header.masthead {
+      min-height: -webkit-fill-available;
+      }
+  }
 
 .timeline {
   position: relative;
@@ -396,12 +408,15 @@ header.masthead {
     max-width: 100vw; }
   .portfolio-modal .modal-content {
     padding: 10px 0;
-    text-align: center; }
+    text-align: center;
+    width: 72%;
+    margin: auto;
+    margin-top: 10%; }
     .portfolio-modal .modal-content h2 {
       font-size: 3em;
       margin-bottom: 15px; }
     .portfolio-modal .modal-content p {
-      margin: 54px;
+      margin: 2%;
     font-size: x-large; }
     .portfolio-modal .modal-content p.item-intro {
       font-size: 16px;
